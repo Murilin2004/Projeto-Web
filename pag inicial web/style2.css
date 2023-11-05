@@ -1,0 +1,150 @@
+.tudo-tudo{
+    background-color: rgb(105, 0, 128);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tudo{
+    background-color: lightgray;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px; 
+    width: 1100px;
+    height: 510px;
+    margin-top: 25px;
+    margin-left: 72px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.principal{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 600px;
+    height: 360px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dados{
+    background-color: rgba(255, 204, 0, 0.737);
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    border: 2px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+
+}
+
+input{
+    border: 2px;
+    border-radius: 10px;
+    margin-left: 45px;
+    width: 225px;
+    height: 25px;
+    display: inline-block;
+    margin-top: -3px;
+    text-align: left;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+.label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-left: -40px;
+}
+
+.group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px; /* Espaço entre grupos de rótulos e inputs */
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email, .nickname, .senha{
+    margin-left: -20px;
+
+}
+
+.perfil{
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.remover h2 {
+    white-space: nowrap;
+    overflow: hidden;
+    
+}
+
+.remover{
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    border: 2px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 190px;
+    margin-right: 100px;
+
+}
+
+.remove{
+    background-color: rgba(255, 0, 0, 0.737);
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    border: 2px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: -30px;
+    color: white;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row; /* Alinha .principal e .remover lado a lado */
+    justify-content: space-between; /* Coloca espaço entre .principal e .remover */
+    align-items: center;
+}

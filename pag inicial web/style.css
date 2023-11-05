@@ -1,0 +1,141 @@
+.tudo{
+    background-color: rgb(105, 0, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+
+}
+
+.principal, .login {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px; 
+    width: 550px;
+    height: 510px;
+}
+
+
+.red { color: red; }
+.orange { color: orange; }
+.yellow { color: yellow; }
+.green { color: green; }
+.blue { color: blue; }
+.violet { color: violet; }
+
+
+h1{
+    text-align: center;
+    font-size: 55px;
+    letter-spacing: 0px;
+
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.principal{
+    background-color: black;
+    color: white;
+
+}
+
+button{
+    background-color: rgba(255, 204, 0, 0.737);
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    border: 2px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.cad{
+    margin-left: -100px;
+
+}
+
+
+.login {
+    text-align: left;
+    background-color: lightgray;
+    width: 350px;
+    margin-left: -11px;
+}
+
+.nick, .senha {
+    text-decoration: underline;
+    text-align: left;
+    margin-top: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.senha{
+    margin-top: 20px;
+
+}
+
+.text3{
+    text-align: left;
+    font-size: 22px;
+    margin-left: 50px;
+
+}
+
+.esqueci{
+    color: rgb(0, 170, 255);
+    text-decoration: underline;
+    text-align: left;
+    margin-left: 45px;
+    margin-top: 10px;
+
+}
+
+.dev{
+    font-size: 22px;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+
+.input-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 45px;
+}
+
+input{
+    border: 2px;
+    border-radius: 10px;
+    margin-left: 45px;
+    width: 250px;
+    height: 25px;
+    display: inline-block;
+    margin-top: -3px;
+    text-align: left;
+}
+
+.log{
+   margin-right: 80px;
+
+}
+
+#mensagemErro{
+    text-align: center;
+    font-size: 18px;
+
+}
